@@ -7,7 +7,7 @@ from openai.types.beta.assistant_stream_event import ThreadMessageDelta
 from openai.types.beta.threads.text_delta_block import TextDeltaBlock 
 
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
-ASSISTANT_ID = st.secrets["SGI"]
+ASSISTANT_ID = st.secrets["ASSISTANT_ID"]
 
 # Initialise the OpenAI client, and retrieve the assistant
 client = OpenAI(api_key=OPENAI_API_KEY)
